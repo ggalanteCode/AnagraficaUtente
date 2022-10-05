@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String nome, cognome, luogoNascita, patente = "", genere = "";
+		String nome, cognome, luogoNascita, genere = "";
 		int eta;
 		double altezza;
 		boolean hasPatente;
@@ -27,6 +27,7 @@ public class Main {
 		hasPatente = s.nextBoolean();
 		System.out.print("Inserisci il genere: ");
 		genere = s.nextLine();
+		
 	}
 
 }
